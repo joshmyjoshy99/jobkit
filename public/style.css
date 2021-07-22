@@ -1,0 +1,60 @@
+.main-bg {
+  background-image: url("../src/img/topimg.png");
+  background-repeat: no-repeat;
+}
+.nav-bg {
+  background-color: black !important;
+}
+.input-loc {
+  margin-left: 30px !important;
+}
+.nav-text {
+  color: white !important;
+}
+.search-btn {
+  background-color: #29d9d8;
+}
+.skill-img {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 0;
+  margin-left: 40px !important;
+}
+.location-img {
+  width: 17px;
+  height: 17px;
+  margin-left: 15.5rem !important;
+  position: absolute;
+  left: 0;
+  z-index: 9;
+}
+.gallery {
+  height: 540px;
+  width: 100%;
+  background-color: teal;
+}
+.hand {
+  height: 100%;
+  width: 100%;
+  background-image: url(../src/img/hand.png);
+}
+.lens-holder {
+  height: 30rem;
+  width: 100%;
+  background: rgb(26, 249, 255);
+  background: linear-gradient(90deg, rgba(26, 249, 255, 1) 5%, rgba(87, 15, 73, 1) 90%, rgba(255, 255, 255, 1) 97%);
+  position: relative;
+  bottom: 0;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-top: 10px !important;
+  }
+}

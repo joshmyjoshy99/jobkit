@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap");
 .main-bg {
   background-image: url("../src/img/topimg.png");
   background-repeat: no-repeat;
+<<<<<<< Updated upstream
   
+=======
+  opacity: 0.7;
+  background-color: #23979f;
+>>>>>>> Stashed changes
 }
 .nav-bg {
   background-color: black !important;
@@ -9,12 +15,22 @@
 }
 .input-loc {
   margin-left: 30px !important;
+  height: 45px;
+  width: 200px !important;
+}
+.main-title {
+  color: white !important;
+  font-family: "Roboto";
+  font-weight: 400 !important;
 }
 .nav-text {
   color: white !important;
 }
 .search-btn {
   background-color: #29d9d8;
+}
+.filter {
+  margin-left: 100px;
 }
 .skill-img {
   width: 17px;

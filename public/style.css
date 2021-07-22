@@ -1,9 +1,11 @@
 .main-bg {
   background-image: url("../src/img/topimg.png");
   background-repeat: no-repeat;
+  
 }
 .nav-bg {
   background-color: black !important;
+  height: 66px;
 }
 .input-loc {
   margin-left: 30px !important;
@@ -57,4 +59,35 @@
     justify-self: center;
     margin-top: 10px !important;
   }
+  .mobile-input{
+    width: 100% !important; 
+    margin-top: 10px;
+  }
+}
+.text-info{
+  font-size: 35px;
+  font-weight: bold;
+}
+.heading{
+  font-size: 41px !important;
+  font-weight: regular !important;
+  margin-left: 139px !important;
+  margin-bottom: 184px !important;
+  font: Segoe UI !important;
+  color: white;
+}
+.boxtype{
+  width: 306;
+  height: 52;
+  margin-top: 139;
+  color: black;
+}
+.boxtype2{
+  width: 228;
+  height: 52;
+
+}
+.fulbox{
+  margin-left: -10px;
+  
 }

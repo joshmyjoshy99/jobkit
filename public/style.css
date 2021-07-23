@@ -26,7 +26,6 @@
   background-color: #29d9d8;
 }
 .filter {
-  margin-left: 100px;
 }
 .skill-img {
   width: 17px;
@@ -34,6 +33,10 @@
   position: absolute;
   left: 0;
   margin-left: 40px !important;
+}
+.footer-text {
+  color: white;
+  text-align: center;
 }
 .location-img {
   width: 17px;
@@ -52,7 +55,6 @@
 .hand {
   height: 100%;
   width: 100%;
-  
 }
 .lens-holder {
   height: 30rem;
@@ -72,16 +74,16 @@
     justify-self: center;
     margin-top: 10px !important;
   }
-  .mobile-input{
-    width: 100% !important; 
+  .mobile-input {
+    width: 100% !important;
     margin-top: 10px;
   }
 }
-.text-info{
+.text-info {
   font-size: 35px;
   font-weight: bold;
 }
-.heading{
+.heading {
   font-size: 41px !important;
   font-weight: regular !important;
   margin-left: 139px !important;
@@ -89,37 +91,34 @@
   font: Segoe UI !important;
   color: white;
 }
-.boxtype{
+.boxtype {
   width: 306;
   height: 52;
   margin-top: 139;
   color: black;
 }
-.boxtype2{
+.boxtype2 {
   width: 228;
   height: 52;
-
 }
-.fulbox{
+.fulbox {
   margin-left: -10px;
-  
 }
-.subheading{
+.subheading {
   color: white;
   align-items: left;
   margin-left: 100px;
 }
-.heading-color{
-  color: #0B5E64;
+.heading-color {
+  color: #0b5e64;
   font-size: 50px;
-
 }
-.green{
+.green {
   height: 30px;
   background-color: teal;
   background-image: url(../src/img/hand.png);
 }
-.black{
+.black {
   height: 200px;
   background-color: black;
 }

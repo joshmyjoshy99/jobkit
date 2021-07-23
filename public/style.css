@@ -2,12 +2,8 @@
 .main-bg {
   background-image: url("../src/img/topimg.png");
   background-repeat: no-repeat;
-<<<<<<< Updated upstream
-  
-=======
   opacity: 0.7;
   background-color: #23979f;
->>>>>>> Stashed changes
 }
 .nav-bg {
   background-color: black !important;
@@ -48,14 +44,15 @@
   z-index: 9;
 }
 .gallery {
-  height: 540px;
+  height: 180px;
   width: 100%;
   background-color: teal;
+  background-image: url(../src/img/hand.png);
 }
 .hand {
   height: 100%;
   width: 100%;
-  background-image: url(../src/img/hand.png);
+  
 }
 .lens-holder {
   height: 30rem;
@@ -106,4 +103,23 @@
 .fulbox{
   margin-left: -10px;
   
+}
+.subheading{
+  color: white;
+  align-items: left;
+  margin-left: 100px;
+}
+.heading-color{
+  color: #0B5E64;
+  font-size: 50px;
+
+}
+.green{
+  height: 30px;
+  background-color: teal;
+  background-image: url(../src/img/hand.png);
+}
+.black{
+  height: 200px;
+  background-color: black;
 }
